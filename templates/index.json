@@ -77,8 +77,8 @@
       "settings": {
         "color_scheme": "background-1",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 40
+        "padding_top": 30,
+        "padding_bottom": 30
       }
     },
     "collage": {
@@ -124,8 +124,8 @@
         "description": "Descubre cómo empezamos y qué nos inspira.",
         "full_width": true,
         "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 40
+        "padding_top": 30,
+        "padding_bottom": 30
       }
     },
     "pie_de_pagina": {
@@ -143,4 +143,3 @@
     "pie_de_pagina"
   ]
 }
-
