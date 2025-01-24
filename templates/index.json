@@ -1,4 +1,5 @@
 {
+  //Parte top  de la tienda
   "sections": {
     "image_banner": {
       "type": "image-banner",
@@ -6,22 +7,22 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "Título",
             "heading_size": "h0"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "Averiguar que es esto.",
+            "text": "Subtítulo",
             "text_style": "body"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
+            "button_label_1": "Comprar todo",
+            "button_link_1": "shopify://collections/all", //dirección que nos dirige el boton.
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -46,20 +47,22 @@
         "show_text_below": false
       }
     },
+
+    // Información adiccional
     "rich_text": {
       "type": "rich-text",
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Hola ---- Talk about your brand",
+            "heading": "Sobre nosotros",
             "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Texto Texto Texto.<\/p>"
+            "text": "<p>Aquí hablamos un poco sobre nosotros.<\/p>"
           }
         }
       },
@@ -74,10 +77,12 @@
         "padding_bottom": 0
       }
     },
+
+    //Productos destacados
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured products",
+        "title": "Productos destacados",
         "heading_size": "h2",
         "collection": "all",
         "products_to_show": 8,
@@ -123,7 +128,7 @@
         "collection-1"
       ],
       "settings": {
-        "heading": "Multimedia collage",
+        "heading": "Diferentes productos ",
         "heading_size": "h2",
         "desktop_layout": "left",
         "mobile_layout": "collage",
@@ -132,7 +137,9 @@
         "padding_bottom": 36
       }
     },
-    "video": {
+
+    //Aqui introducimos un video mostrando diferentes productos (Ahora mismo tenemos algo de shopify)
+    "video": { 
       "type": "video",
       "settings": {
         "heading": "",
@@ -145,6 +152,8 @@
         "padding_bottom": 36
       }
     },
+
+    //Para insertar columnas por si queremos introducir diferentes información
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
@@ -199,6 +208,8 @@
       }
     }
   },
+
+  //El orden que se va a mostrar la página
   "order": [
     "image_banner",
     "rich_text",
